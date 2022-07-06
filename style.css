@@ -153,6 +153,7 @@ body
   text-align: center;
 }
 
+
 .card-in
 {
   padding-top: 2%;
@@ -163,11 +164,49 @@ body
   text-align: justify;
 }
 
+.card-in2
+{
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 5%;
+  margin-right: 25px;
+  text-align: justify;
+  border-radius: 10px;
+ 
+  box-shadow:  -7px 0 10px #555;
+
+  
+}
+
+.card-in3
+{
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 5%;
+  margin-right: 25px;
+  text-align: justify;
+  border-radius: 10px;
+  box-shadow:  -7px 0 10px #555;
+
+  
+}
+
 .card-in img
 {
  float: left;
 }
 .card-in p,h3
+{
+  text-align: left;
+}
+
+.card-in2 img
+{
+ float: left;
+}
+.card-in2 p,h3
 {
   text-align: left;
 }
@@ -185,6 +224,11 @@ body
 .th-bg-color
 {
   background-color: rgb(208, 240, 178);
+}
+
+.one-bg-color
+{
+  background-color:rgb(240, 149, 199) ;
 }
 .half-part
 {
