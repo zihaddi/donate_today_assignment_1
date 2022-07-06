@@ -169,6 +169,7 @@ body
   padding-top: 2%;
   padding-left: 3%;
   padding-right: 3%;
+  padding-bottom: 3%;
   margin-top: 5%;
   margin-right: 25px;
   text-align: justify;
@@ -184,6 +185,7 @@ body
   padding-top: 2%;
   padding-left: 3%;
   padding-right: 3%;
+  padding-bottom: 3%;
   margin-top: 5%;
   margin-right: 25px;
   text-align: justify;
@@ -228,7 +230,7 @@ body
 
 .one-bg-color
 {
-  background-color:rgb(240, 149, 199) ;
+  background-color:rgb(243, 151, 202) ;
 }
 .half-part
 {
