@@ -22,13 +22,14 @@ body
 
 .btn-setup
 {
-  background-image: linear-gradient(orange,tomato);
+  background-image: linear-gradient(red,tomato);
  
-  padding: 10px 20px;
+  padding: 8px 20px;
   text-decoration: none;
   border-radius: 10px;
   color: white;
-  font-weight: 500;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .font-work
@@ -79,21 +80,24 @@ body
 .two_design
 {
   margin: 0%;
-  padding: 20px 20px;
+  margin-right: 10px;
+  padding: 5px 20px;
   border: 1px solid rgb(233, 88, 88);
   border-radius: 6px;
   background-color: rgba(243, 191, 94, 0.767);
   color: rgb(233, 88, 88);
+  font-weight: 400;
 }
 
 .one_design
 {
   margin: 0%;
-  padding: 20px 20px;
-  
+  padding: 5px 20px;
+  margin-right: 10px;
   border-radius: 6px;
   background-color: rgb(202, 180, 180);
-  color: black
+  color: black;
+  font-weight: 400;
 }
 .block-it
 {
@@ -131,6 +135,14 @@ body
   padding-right: 10%;
 }
 
+ .mid-write
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
 .card-flex
 {
   justify-content: space-between;
@@ -143,11 +155,12 @@ body
 
 .card-in
 {
-  padding-top: 4%;
+  padding-top: 2%;
   padding-left: 3%;
   padding-right: 3%;
-  margin: 2%;
-  text-align: center;
+  margin-top: 5%;
+  margin-right: 25px;
+  text-align: justify;
 }
 
 .card-in img
@@ -172,4 +185,121 @@ body
 .th-bg-color
 {
   background-color: rgb(208, 240, 178);
+}
+.half-part
+{
+  text-align: left;
+  justify-content: center;
+  margin-top: 0%;
+  padding-left: 4%;
+  width: 50%;
+ 
+}
+.half-part img
+{
+  padding-top: 5%;
+  padding-left:6% ;
+  width: 80%;
+}
+
+.section-3-p
+{
+  font-size: 15px;
+}
+
+.half-part-2
+{
+  text-align: left;
+  justify-content: center;
+  margin-top: 0%;
+  padding-left: 4%;
+  width: 50%;
+ 
+}
+
+.half-part-2 img
+{
+  padding-top: 8%;
+  padding-left:0% ;
+  width: 80%;
+}
+.half-part-2-3
+{
+  text-align:left;
+  justify-content: center;
+  padding-left: 4%;
+  padding-right: 6%;
+  width: 50%;
+}
+
+.form
+{
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+  width: 50%;
+  background-color: rgb(234, 211, 236);
+}
+
+.form .text-form 
+{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: auto;
+  padding-right:0%;
+  padding-left:0%;
+  width: 40%;
+  border: none;
+  color: rgb(105, 104, 104);
+  background-color: rgb(180, 160, 160);
+  border-top-left-radius: 5px 5px;
+  border-bottom-left-radius: 5px 5px;
+}
+
+ ::placeholder
+{
+  padding-left: 6%;
+}
+
+
+
+.form .submit-form
+{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right:0%;
+  margin-right: auto;
+  width: 40%;
+  border: none;
+  background-color: red;
+  color: white;
+  border-top-right-radius: 5px 5px;
+  border-bottom-right-radius: 5px 5px;
+}
+
+.items-2
+{
+  text-align: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+footer 
+{
+  text-align: center;
+  height: 150px;
+  padding-top: 2%;
+  background-color: black;
+  color: white;
+  font-family: 'Gentium Book Plus', serif;
+  line-height: .5;
+}
+
+footer  span
+{
+  color: tomato;
 }
