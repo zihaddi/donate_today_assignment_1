@@ -1,0 +1,175 @@
+
+body
+{
+  margin: 0%;
+ 
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.background-image{
+  height: 100vh;
+ width: 100%;
+ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.73)),url(./images/hero.png) ;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+.background-image h1{
+  font-size: 40px;
+} 
+
+.btn-setup
+{
+  background-image: linear-gradient(orange,tomato);
+ 
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.font-work
+{
+  margin: 0%;
+  padding:0.1% 0%;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.font-work p
+{
+  font-size: small;
+}
+
+.text-content
+{
+  padding: 15%;
+}
+
+.background-color
+{
+  height: 100vh;
+ width: 100%;
+ background-color: white;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.background-color .items
+{
+  padding-top: 80px;
+  text-align: center;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.three-space-flex 
+{
+  justify-content: space-between;
+  display: flex;
+  padding: 8px 10%;
+  text-align: center;
+}
+
+.two_design
+{
+  margin: 0%;
+  padding: 20px 20px;
+  border: 1px solid rgb(233, 88, 88);
+  border-radius: 6px;
+  background-color: rgba(243, 191, 94, 0.767);
+  color: rgb(233, 88, 88);
+}
+
+.one_design
+{
+  margin: 0%;
+  padding: 20px 20px;
+  
+  border-radius: 6px;
+  background-color: rgb(202, 180, 180);
+  color: black
+}
+.block-it
+{
+  display: block;
+}
+
+.input
+{
+  margin-top: 80px;
+  border: none;
+  padding-top: 2px;
+  text-align: center;
+  align-items: center;
+  padding-left: 31%;
+  padding-right: 31%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom:1px solid rgb(190, 182, 182);
+}
+
+
+.placeholder-det ::placeholder
+{
+  
+  padding: 2%;
+  color: gray;
+  font-size: 20px;
+}
+
+.items
+{
+  text-align: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-flex
+{
+  justify-content: space-between;
+  display: flex;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin: 2%;
+  text-align: center;
+}
+
+.card-in
+{
+  padding-top: 4%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 2%;
+  text-align: center;
+}
+
+.card-in img
+{
+ float: left;
+}
+.card-in p,h3
+{
+  text-align: left;
+}
+
+.fc-bg-color
+{
+  background-color: rgb(173, 173, 211);
+}
+
+.se-bg-color
+{
+  background-color: rgb(229, 162, 235);
+}
+
+.th-bg-color
+{
+  background-color: rgb(208, 240, 178);
+}
